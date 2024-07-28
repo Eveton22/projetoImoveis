@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .inputs {
+    padding: 25px 26px;
+    background: #ffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+form .label-compra {
+    font: bold;
+    font-size: 0.9em;
+    position: relative;
+    right: 140px;
+    top: 42px;
+}
+
+form  .compra select {
+}
+
+form .compra label {
+
+}
+
+
+form .inputs select {
+    border: none;
+    flex: 1;
+    font-size: 20px;
+    
+}
+
+form .inputs input {
+    width: 80%;
+    border: none;
+}
+
+
+.icon-search {
+    font-size: 20px;
+}
+
+.icon-home {
+    font-size: 20px;
+}
+
+form .search ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+
+form .search input {
+    flex: 1;
+    width: 340px;
+    font-size: 1.2em;
+    margin-left: 0.8em;
+}
+
+.div-button button {
+    text-align: center;
+    padding: 19px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 12px;
+    color: #f7f3f7;
+    background-color: rgb(131, 13, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+form .inputs select {
+    padding: 2px;
+    padding-inline: 10px;
+}
